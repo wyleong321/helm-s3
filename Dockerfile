@@ -16,3 +16,5 @@ USER helm
 RUN helm plugin install https://github.com/hypnoglow/helm-s3.git
 
 USER root
+
+RUN helm plugin install https://github.com/hypnoglow/helm-s3.git
